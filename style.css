@@ -113,3 +113,94 @@ header{
     height: 250px;
     
 }
+.pricing{
+    padding: 80px 0;
+}
+
+.pricing-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing-header h1{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.pricing-header p{
+    font-size: 18px;
+    color: gray;
+}
+
+.price-container{
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.pricing-card{
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.pricing-card h5{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.pricing-card h1{
+    font-size: 55px;
+    color: #1f2937;
+}
+
+.price-text{
+    color:white;
+    margin: 8px 0 20px;
+}
+
+.pricing-card hr{
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.pricing-card ul li{
+    margin-bottom: 12px;
+    color: #374151;
+}
+.featured ul li {
+    color: white;
+}
+
+.pricing-card ul li::marker{
+    color:white;
+}
+
+.pricing-card button{
+    width:100%;
+    padding:14px;
+    border:2px solid #2563eb;
+    background:white;
+    color:#2563eb;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.pricing-card button:hover{
+    background:#2563eb;
+    color:white;
+}
