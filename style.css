@@ -81,3 +81,35 @@ header{
 .header-content button:hover{
     background:#1d4ed8;
 }
+
+.speakers{
+    max-width: 1120px;
+    margin: 0px auto;
+}
+
+.speakers h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.main-contain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speaker-card{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      height: 500px;
+}
+
+.speaker-card img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    
+}
